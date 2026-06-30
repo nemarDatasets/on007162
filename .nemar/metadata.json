@@ -1,28 +1,84 @@
 {
   "version": "2.0",
-  "dataset_id": "on007162",
-  "source": "openneuro",
-  "source_id": "ds007162",
+  "pipeline_stage": "enriched",
   "title": "Adaptive recruitment of cortex-wide recurrence for visual object recognition (EEG)",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "[Unspecified1]": {},
     "[Unspecified2]": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007162.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007162",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007162",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1101/2025.10.17.682937",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007162",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".md",
+    ".npz",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset contains EEG recordings from 34 participants performing a visual object recognition task using a curated stimulus set of 242 images (121 challenge and 121 control images) derived from comparisons between human behavioral performance and AlexNet. Participants viewed sequences of 14 images presented for 200 ms each with 100 ms interstimulus intervals and reported the presence of a paper clip target object. The dataset includes time-resolved decoding analyses examining adaptive recruitment of cortex-wide recurrence mechanisms underlying visual object recognition.",
+  "methods_description": "EEG data were collected from 34 participants in a single session. The experimental task involved presentation of 242 images (121 challenge and 121 control images) in sequences of 14 trials. Each image was presented for 200 ms followed by a 100 ms blank interval. Participants performed a sequence-level detection task, reporting whether a paper clip appeared in each 14-image sequence. Derivatives include time-resolved decoding accuracy matrices for object identity.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "visual object recognition"
+    },
+    {
+      "term": "decoding analysis"
+    },
+    {
+      "term": "recurrent processing"
+    },
+    {
+      "term": "neural dynamics"
+    },
+    {
+      "term": "temporal decoding"
+    },
+    {
+      "term": "multivariate pattern analysis"
+    },
+    {
+      "term": "feedforward and feedback processing"
+    }
+  ],
+  "source_hash": "f04dd8eca2fc796044566e3002f149f85187df27198d476d10328abb69a12a4c"
 }
