@@ -2,18 +2,44 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Adaptive recruitment of cortex-wide recurrence for visual object recognition (EEG)",
+  "description": "AUTHOR NAMES REQUIRED: This EEG dataset comprises recordings from 34 participants performing a visual object recognition task using a curated stimulus set of 242 images (121 challenge and 121 control images) derived from comparisons between human behavioral performance and AlexNet. Participants viewed sequences of 14 images presented for 200 ms each with 100 ms interstimulus intervals and reported the presence of a paper clip. The dataset includes preprocessed EEG data and time-resolved decoding accuracy matrices for object identity classification, supporting investigations of adaptive cortex-wide recurrent processing mechanisms underlying visual recognition.",
+  "methods_description": "EEG data were collected during a visual object recognition task in which participants viewed sequences of 14 images presented for 200 ms each followed by 100 ms blank intervals. Stimulus sets consisted of 242 images (121 challenge and 121 control images) derived from comparisons between human behavioral performance and AlexNet. Participants reported the presence of a paper clip at the end of each sequence. Derivatives include time-resolved decoding accuracy matrices for object identity.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "[Unspecified1]": {},
     "[Unspecified2]": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds007162.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "visual object recognition"
+    },
+    {
+      "term": "recurrent processing"
+    },
+    {
+      "term": "decoding analysis"
+    },
+    {
+      "term": "neural dynamics"
+    },
+    {
+      "term": "paper clip detection"
+    },
+    {
+      "term": "human-AI comparison"
+    },
+    {
+      "term": "temporal dynamics"
+    },
+    {
+      "term": "AlexNet"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on007162",
       "identifier_type": "URL",
@@ -33,15 +59,20 @@
       "identifier": "10.18112/openneuro.ds007162",
       "identifier_type": "DOI",
       "relation_type": "IsVersionOf"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007162.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "64.0 GB (307 files)"
   ],
   "formats": [
     ".eeg",
@@ -50,35 +81,8 @@
     ".npz",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "This dataset contains EEG recordings from 34 participants performing a visual object recognition task using a curated stimulus set of 242 images (121 challenge and 121 control images) derived from comparisons between human behavioral performance and AlexNet. Participants viewed sequences of 14 images presented for 200 ms each with 100 ms interstimulus intervals and reported the presence of a paper clip target object. The dataset includes time-resolved decoding analyses examining adaptive recruitment of cortex-wide recurrence mechanisms underlying visual object recognition.",
-  "methods_description": "EEG data were collected from 34 participants in a single session. The experimental task involved presentation of 242 images (121 challenge and 121 control images) in sequences of 14 trials. Each image was presented for 200 ms followed by a 100 ms blank interval. Participants performed a sequence-level detection task, reporting whether a paper clip appeared in each 14-image sequence. Derivatives include time-resolved decoding accuracy matrices for object identity.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "visual object recognition"
-    },
-    {
-      "term": "decoding analysis"
-    },
-    {
-      "term": "recurrent processing"
-    },
-    {
-      "term": "neural dynamics"
-    },
-    {
-      "term": "temporal decoding"
-    },
-    {
-      "term": "multivariate pattern analysis"
-    },
-    {
-      "term": "feedforward and feedback processing"
-    }
-  ],
-  "source_hash": "f04dd8eca2fc796044566e3002f149f85187df27198d476d10328abb69a12a4c"
+  "source_hash": "db60e53d5d5cb8b7188a841d51db315382e616feebef5e79f88345f99d47e3ae"
 }
