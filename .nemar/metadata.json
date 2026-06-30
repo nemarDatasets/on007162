@@ -1,0 +1,28 @@
+{
+  "version": "2.0",
+  "dataset_id": "on007162",
+  "source": "openneuro",
+  "source_id": "ds007162",
+  "title": "Adaptive recruitment of cortex-wide recurrence for visual object recognition (EEG)",
+  "authors": {
+    "[Unspecified1]": {},
+    "[Unspecified2]": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds007162.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.7.0",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ]
+}
