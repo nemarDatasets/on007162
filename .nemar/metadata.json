@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Adaptive recruitment of cortex-wide recurrence for visual object recognition (EEG)",
-  "description": "AUTHOR NAMES REQUIRED: This EEG dataset comprises recordings from 34 participants performing a visual object recognition task using a curated stimulus set of 242 images (121 challenge and 121 control images) derived from comparisons between human behavioral performance and AlexNet. Participants viewed sequences of 14 images presented for 200 ms each with 100 ms interstimulus intervals and reported the presence of a paper clip. The dataset includes preprocessed EEG data and time-resolved decoding accuracy matrices for object identity classification, supporting investigations of adaptive cortex-wide recurrent processing mechanisms underlying visual recognition.",
-  "methods_description": "EEG data were collected during a visual object recognition task in which participants viewed sequences of 14 images presented for 200 ms each followed by 100 ms blank intervals. Stimulus sets consisted of 242 images (121 challenge and 121 control images) derived from comparisons between human behavioral performance and AlexNet. Participants reported the presence of a paper clip at the end of each sequence. Derivatives include time-resolved decoding accuracy matrices for object identity.",
+  "description": "This dataset contains EEG recordings from 34 participants collected to investigate the adaptive recruitment of cortex-wide recurrent processing during visual object recognition. Participants viewed a stimulus set of 242 images, comprising 'challenge' and 'control' images selected based on discrepancies between human behavioral performance and AlexNet classification, while performing a rapid serial visual presentation task with a paper-clip detection component. The dataset includes derivatives with time-resolved decoding accuracy matrices for object identity, supporting analyses of recurrent cortical dynamics in visual processing.",
+  "methods_description": "Each trial presented a single image for 200 ms followed by a 100 ms blank interval. Trials were grouped into sequences of 14 images, and at the end of each sequence participants reported whether a paper clip had appeared anywhere within it. Stimuli consisted of 242 images (121 'challenge' and 121 'control') selected based on divergence between human behavioral performance and AlexNet model predictions.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -24,19 +24,12 @@
       "term": "decoding analysis"
     },
     {
-      "term": "neural dynamics"
-    },
-    {
-      "term": "paper clip detection"
-    },
-    {
-      "term": "human-AI comparison"
-    },
-    {
-      "term": "temporal dynamics"
-    },
-    {
       "term": "AlexNet"
+    },
+    {
+      "term": "Pattern Recognition, Visual",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D010364"
     }
   ],
   "related_identifiers": [
@@ -53,7 +46,7 @@
     {
       "identifier": "10.1101/2025.10.17.682937",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "IsSupplementTo"
     },
     {
       "identifier": "10.18112/openneuro.ds007162",
