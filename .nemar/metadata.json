@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "Adaptive recruitment of cortex-wide recurrence for visual object recognition (EEG)",
-  "description": "This dataset contains EEG recordings from 34 participants collected to investigate the adaptive recruitment of cortex-wide recurrent processing during visual object recognition. Participants viewed a stimulus set of 242 images, comprising 'challenge' and 'control' images selected based on discrepancies between human behavioral performance and AlexNet classification, while performing a rapid serial visual presentation task with a paper-clip detection component. The dataset includes derivatives with time-resolved decoding accuracy matrices for object identity, supporting analyses of recurrent cortical dynamics in visual processing.",
-  "methods_description": "Each trial presented a single image for 200 ms followed by a 100 ms blank interval. Trials were grouped into sequences of 14 images, and at the end of each sequence participants reported whether a paper clip had appeared anywhere within it. Stimuli consisted of 242 images (121 'challenge' and 121 'control') selected based on divergence between human behavioral performance and AlexNet model predictions.",
+  "description": "This dataset contains EEG recordings from 34 participants (one session each) who viewed 242 object images, 121 challenge and 121 control images, selected from comparisons between human behavioural performance and AlexNet. The study examines adaptive recruitment of cortex-wide recurrent processing during visual object recognition. The derivatives folder contains outputs of the decoding analyses, including time-resolved decoding accuracy matrices for object identity (.npz).",
+  "methods_description": "Each trial showed a single image for 200 ms followed by a 100 ms blank. Trials were grouped into sequences of 14 images. At the end of each sequence, participants reported whether a paper clip had appeared in that sequence. One EEG session was recorded per participant.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,21 +15,31 @@
       "term": "EEG"
     },
     {
+      "term": "electroencephalography"
+    },
+    {
       "term": "visual object recognition"
     },
     {
       "term": "recurrent processing"
     },
     {
-      "term": "decoding analysis"
+      "term": "decoding"
+    },
+    {
+      "term": "deep neural networks"
     },
     {
       "term": "AlexNet"
     },
     {
-      "term": "Pattern Recognition, Visual",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D010364"
+      "term": "RSVP"
+    },
+    {
+      "term": "time-resolved decoding"
+    },
+    {
+      "term": "human vision"
     }
   ],
   "related_identifiers": [
@@ -46,7 +56,7 @@
     {
       "identifier": "10.1101/2025.10.17.682937",
       "identifier_type": "DOI",
-      "relation_type": "IsSupplementTo"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "10.18112/openneuro.ds007162",
@@ -65,7 +75,7 @@
     "eeg"
   ],
   "sizes": [
-    "64.0 GB (307 files)"
+    "59.61 GB (307 files)"
   ],
   "formats": [
     ".eeg",
